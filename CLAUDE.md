@@ -28,3 +28,7 @@ No test framework is configured yet.
 - `experimental.agentFeedback: true`: `next dev` maintains a feedback block in `AGENTS.md`. See `01-app/02-guides/ai-agents.md`.
 
 Route props use the generated global helpers (for example `LayoutProps<"/">` in `app/layout.tsx`). Their types come from `.next/types`, which `next dev` or `next build` regenerates.
+
+## On-demand rules
+
+- `memory/frontend/CLAUDE.md`: Next.js coding rules for this project's Cache Components setup. Read it before writing or reviewing code in `app/`, `proxy.ts`, or `next.config.ts`.
