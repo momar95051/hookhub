@@ -32,3 +32,4 @@ Route props use the generated global helpers (for example `LayoutProps<"/">` in 
 ## On-demand rules
 
 - `memory/frontend/CLAUDE.md`: Next.js coding rules for this project's Cache Components setup. Read it before writing or reviewing code in `app/`, `proxy.ts`, or `next.config.ts`.
+- `memory/spec/CLAUDE.md`: HookHub MVP spec (scope, data model, seed hooks, acceptance criteria). Read it before building or changing features.
